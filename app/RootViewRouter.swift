@@ -9,7 +9,7 @@ class ViewRouter: ObservableObject {
 
     let objectWillChange = PassthroughSubject<ViewRouter, Never>()
 
-    var currentPage: String = "ContentPage" {
+    var currentPage: String = "RegistrationPage" {
         didSet {
             withAnimation() {
                 objectWillChange.send(self)
@@ -32,6 +32,10 @@ struct RootView: View {
             } else if viewRouter.currentPage == "ContentPage" {
                 ContentPage()
                         .transition(.scale)
+            } else if viewRouter.currentPage == "RegistrationPage" {
+                RegistrationPage()
+                        .transition(.scale)
+
             }
         }
     }

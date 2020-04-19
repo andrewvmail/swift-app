@@ -10,7 +10,13 @@ class AppSequence: ObservableObject {
     }
     func momoHello(main: Main) {
         print("momo hello")
-        main.appState.token = "MOMO TERRAW"
+        main.appState.token = "MOMO TERRAW!!!"
+        main.router.currentPage = "WelcomePage"
+    }
+    func momoHello2(main: Main) {
+        print("momo hello")
+        main.appState.token = "MOMO TERRAWdddd!!!"
+        main.router.currentPage = "ContentPage"
     }
 }
 

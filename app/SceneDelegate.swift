@@ -27,6 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         var catSequence = main.catsSequence
         var appState = main.appState
         var appSequence = main.appSequence
+        var router = main.router
 
 
         // Use a UIHostingController as window root view controller.
@@ -35,7 +36,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             // window.rootViewController = UIHostingController(rootView: ContentPage)
             window.rootViewController = UIHostingController(
                     rootView: RootView()
-                            .environmentObject(ViewRouter())
+                            .environmentObject(router)
                             .environmentObject(main)
                             .environmentObject(catState)
                             .environmentObject(catSequence)

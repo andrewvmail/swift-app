@@ -6,6 +6,7 @@ class Main: ObservableObject {
     var appSequence = AppSequence()
     var catsState: CatsState = CatsState()
     var catsSequence = CatsSequence()
+    var router = ViewRouter()
 
     func setToken(appState: AppState) {
         print(appState)

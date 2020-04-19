@@ -78,7 +78,7 @@ struct Details: View {
             Text("Details")
             Button("pop back") {
                 self.presentation.wrappedValue.dismiss()
-                self.appSequence.setToken(appState: self.appState)
+                // self.appSequence.setToken(appState: self.appState)
                 self.appSequence.momoHello(main: self.main)
             }
         }
