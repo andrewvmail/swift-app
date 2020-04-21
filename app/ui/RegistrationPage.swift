@@ -5,6 +5,8 @@ struct RegistrationPage: View {
     @EnvironmentObject var order: Cat
     @EnvironmentObject var appState: AppState
     @State var phoneNumber: String = ""
+    @EnvironmentObject var main: Main
+    @EnvironmentObject var appSequence: AppSequence
 
     var body: some View {
         NavigationView {
@@ -17,10 +19,15 @@ struct RegistrationPage: View {
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .keyboardType(.numberPad)
 
+                    // Hi
 
                 }.padding()
 
-                Button(action: {}) {
+                Button(action: {
+                    self.appSequence.route(
+                            main: self.main,
+                            route: Pages.WelcomePage)
+                }) {
                     Text("Submit")
                 }.padding()
 

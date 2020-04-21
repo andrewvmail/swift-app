@@ -10,10 +10,11 @@
 		333AC10CBED18C7C09614A25 /* ContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC5279470D6F272EE7120 /* ContentPage.swift */; };
 		333AC1384084F458DEC7BE88 /* CatsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC07D36EEE003CBAC9398 /* CatsState.swift */; };
 		333AC29DEF38E1DF64B9E4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333AC3BE13F1686EC0FF4E5F /* Assets.xcassets */; };
+		333AC3159CDE5EB15E69DAD1 /* RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */; };
 		333AC368C504CE968D551974 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACD881B4B7D08684EC261 /* Main.swift */; };
 		333AC37F7A13B9A4D7A05202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333AC040A2C616DB2BAAD942 /* LaunchScreen.storyboard */; };
 		333AC3BCA6C53019E13BBB5C /* AppSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC275DC0225074A345193 /* AppSequence.swift */; };
-		333AC517C89D21AC8910DFB8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC03C61A90B67DE1DA5CF /* RootView.swift */; };
+		333AC517C89D21AC8910DFB8 /* RootViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */; };
 		333AC5F94EB6F76C42AA13EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC44CB22094529EB24853 /* SceneDelegate.swift */; };
 		333AC757F8019A851BADD27D /* HelloWorldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */; };
 		333ACB331D34DC50990C8FA5 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3674D015B5398681741 /* navigation.swift */; };
@@ -24,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		333AC03C61A90B67DE1DA5CF /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewRouter.swift; sourceTree = "<group>"; };
 		333AC07D36EEE003CBAC9398 /* CatsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatsState.swift; path = main/modules/cats/CatsState.swift; sourceTree = "<group>"; };
 		333AC275DC0225074A345193 /* AppSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSequence.swift; path = main/modules/app/AppSequence.swift; sourceTree = "<group>"; };
 		333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelloWorldPage.swift; path = ui/HelloWorldPage.swift; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		333AC3B444674183CC3B0359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		333AC3BE13F1686EC0FF4E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333AC44CB22094529EB24853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationPage.swift; path = ui/RegistrationPage.swift; sourceTree = "<group>"; };
 		333AC5279470D6F272EE7120 /* ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentPage.swift; path = ui/ContentPage.swift; sourceTree = "<group>"; };
 		333ACA2737164257A906E104 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = main/modules/app/AppState.swift; sourceTree = "<group>"; };
 		333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomePage.swift; path = ui/WelcomePage.swift; sourceTree = "<group>"; };
@@ -72,13 +74,14 @@
 				333AC3674D015B5398681741 /* navigation.swift */,
 				333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */,
 				333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */,
-				333AC03C61A90B67DE1DA5CF /* RootView.swift */,
+				333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */,
 				333AC5279470D6F272EE7120 /* ContentPage.swift */,
 				333ACA2737164257A906E104 /* AppState.swift */,
 				333AC07D36EEE003CBAC9398 /* CatsState.swift */,
 				333AC275DC0225074A345193 /* AppSequence.swift */,
 				333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */,
 				333ACD881B4B7D08684EC261 /* Main.swift */,
+				333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -160,13 +163,14 @@
 				333ACB331D34DC50990C8FA5 /* navigation.swift in Sources */,
 				333ACE7C812BA24C1789CAB9 /* WelcomePage.swift in Sources */,
 				333AC757F8019A851BADD27D /* HelloWorldPage.swift in Sources */,
-				333AC517C89D21AC8910DFB8 /* RootView.swift in Sources */,
+				333AC517C89D21AC8910DFB8 /* RootViewRouter.swift in Sources */,
 				333AC10CBED18C7C09614A25 /* ContentPage.swift in Sources */,
 				333ACF8F973A858C6CBB951E /* AppState.swift in Sources */,
 				333AC1384084F458DEC7BE88 /* CatsState.swift in Sources */,
 				333AC3BCA6C53019E13BBB5C /* AppSequence.swift in Sources */,
 				333ACDEDBD736CCF5670BBF0 /* CatsSequence.swift in Sources */,
 				333AC368C504CE968D551974 /* Main.swift in Sources */,
+				333AC3159CDE5EB15E69DAD1 /* RegistrationPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

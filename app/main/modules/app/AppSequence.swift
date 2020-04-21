@@ -8,26 +8,33 @@ class AppSequence: ObservableObject {
         print(ModelData())
         print(ModelData().changeName())
     }
+
     func momoHello(main: Main) {
         print("momo hello")
         main.appState.token = "MOMO TERRAW!!!"
-        main.router.currentPage = "WelcomePage"
+        main.router.currentPage = Pages.WelcomePage
     }
+
     func momoHello2(main: Main) {
         print("momo hello")
         main.appState.token = "MOMO TERRAWdddd!!!"
-        main.router.currentPage = "ContentPage"
+        main.router.currentPage = Pages.HelloWorldPage
+    }
+
+    func route(main: Main, route: Pages) {
+        main.router.currentPage = route
     }
 }
 
 import UIKit
+
 class ModelData: NSObject, ObservableObject {
     static let shared: ModelData = ModelData()
     var name = "Fred"
     var age = 50
 
     func changeName() {
-        name  = "momo"
+        name = "momo"
     }
 
 }

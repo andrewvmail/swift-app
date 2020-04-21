@@ -5,11 +5,18 @@ import Foundation
 import Combine
 import SwiftUI
 
+enum Pages {
+    case RegistrationPage
+    case WelcomePage
+    case HelloWorldPage
+    case ContentPage
+}
+
 class ViewRouter: ObservableObject {
 
     let objectWillChange = PassthroughSubject<ViewRouter, Never>()
 
-    var currentPage: String = "RegistrationPage" {
+    var currentPage: Pages = Pages.RegistrationPage {
         didSet {
             withAnimation() {
                 objectWillChange.send(self)
@@ -24,15 +31,15 @@ struct RootView: View {
 
     var body: some View {
         VStack {
-            if viewRouter.currentPage == "HelloWorldPage" {
+            if viewRouter.currentPage == Pages.HelloWorldPage {
                 HelloWorldPage()
-            } else if viewRouter.currentPage == "WelcomePage" {
+            } else if viewRouter.currentPage == Pages.WelcomePage {
                 WelcomePage()
                         .transition(.scale)
-            } else if viewRouter.currentPage == "ContentPage" {
+            } else if viewRouter.currentPage == Pages.ContentPage {
                 ContentPage()
                         .transition(.scale)
-            } else if viewRouter.currentPage == "RegistrationPage" {
+            } else if viewRouter.currentPage == Pages.RegistrationPage {
                 RegistrationPage()
                         .transition(.scale)
 
