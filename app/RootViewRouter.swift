@@ -10,13 +10,14 @@ enum Pages {
     case WelcomePage
     case HelloWorldPage
     case ContentPage
+    case TabbedContentView
 }
 
 class ViewRouter: ObservableObject {
 
     let objectWillChange = PassthroughSubject<ViewRouter, Never>()
 
-    var currentPage: Pages = Pages.RegistrationPage {
+    var currentPage: Pages = Pages.TabbedContentView {
         didSet {
             withAnimation() {
                 objectWillChange.send(self)
@@ -41,6 +42,10 @@ struct RootView: View {
                         .transition(.scale)
             } else if viewRouter.currentPage == Pages.RegistrationPage {
                 RegistrationPage()
+                        .transition(.scale)
+
+            } else if viewRouter.currentPage == Pages.TabbedContentView{
+                TabbedContentView()
                         .transition(.scale)
 
             }

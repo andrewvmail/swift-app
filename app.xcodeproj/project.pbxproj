@@ -15,6 +15,7 @@
 		333AC37F7A13B9A4D7A05202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333AC040A2C616DB2BAAD942 /* LaunchScreen.storyboard */; };
 		333AC3BCA6C53019E13BBB5C /* AppSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC275DC0225074A345193 /* AppSequence.swift */; };
 		333AC517C89D21AC8910DFB8 /* RootViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */; };
+		333AC537CF5E2192C88C01FB /* Tabbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB0A65D237348A60ABEA /* Tabbed.swift */; };
 		333AC5F94EB6F76C42AA13EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC44CB22094529EB24853 /* SceneDelegate.swift */; };
 		333AC757F8019A851BADD27D /* HelloWorldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */; };
 		333ACB331D34DC50990C8FA5 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3674D015B5398681741 /* navigation.swift */; };
@@ -36,6 +37,7 @@
 		333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationPage.swift; path = ui/RegistrationPage.swift; sourceTree = "<group>"; };
 		333AC5279470D6F272EE7120 /* ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentPage.swift; path = ui/ContentPage.swift; sourceTree = "<group>"; };
 		333ACA2737164257A906E104 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = main/modules/app/AppState.swift; sourceTree = "<group>"; };
+		333ACB0A65D237348A60ABEA /* Tabbed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tabbed.swift; path = ui/Tabbed.swift; sourceTree = "<group>"; };
 		333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomePage.swift; path = ui/WelcomePage.swift; sourceTree = "<group>"; };
 		333ACC57EAB3EC2FA20BD975 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333ACC68D0CA1A79382881D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */,
 				333ACD881B4B7D08684EC261 /* Main.swift */,
 				333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */,
+				333ACB0A65D237348A60ABEA /* Tabbed.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				333ACDEDBD736CCF5670BBF0 /* CatsSequence.swift in Sources */,
 				333AC368C504CE968D551974 /* Main.swift in Sources */,
 				333AC3159CDE5EB15E69DAD1 /* RegistrationPage.swift in Sources */,
+				333AC537CF5E2192C88C01FB /* Tabbed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
