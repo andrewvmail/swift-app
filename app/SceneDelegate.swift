@@ -28,6 +28,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         var appState = main.appState
         var appSequence = main.appSequence
         var router = main.router
+        var callState = main.callState
+        var callSequence = main.callSequence
 
 
         // Use a UIHostingController as window root view controller.
@@ -42,7 +44,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                             .environmentObject(catSequence)
                             .environmentObject(appState)
                             .environmentObject(appSequence)
-                            .environmentObject(Cat())
+                            .environmentObject(callState)
+                            .environmentObject(callSequence)
             )
             self.window = window
             window.makeKeyAndVisible()

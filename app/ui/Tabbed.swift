@@ -3,7 +3,7 @@ import SwiftUI
 struct TabbedContentView: View {
     var body: some View {
         TabView {
-            RedView()
+            CallLogsView()
                     .tabItem {
                         Image(systemName: "phone.fill")
                         Text("First Tab")

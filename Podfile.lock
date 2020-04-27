@@ -1,0 +1,21 @@
+PODS:
+  - taresip (0.1.1)
+
+DEPENDENCIES:
+  - taresip (from `https://github.com/andrewvmail/taresip.git`)
+
+EXTERNAL SOURCES:
+  taresip:
+    :git: https://github.com/andrewvmail/taresip.git
+
+CHECKOUT OPTIONS:
+  taresip:
+    :commit: a1c3a87bf5be6769e3cbbd653ad30465ee8bcf1a
+    :git: https://github.com/andrewvmail/taresip.git
+
+SPEC CHECKSUMS:
+  taresip: 25371dcfa501965053e41217f60fc1d2fa523dce
+
+PODFILE CHECKSUM: 918957760c99e9c0979d4e5cd6bcbc482a87da57
+
+COCOAPODS: 1.7.5
