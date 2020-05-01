@@ -21,6 +21,7 @@
 		333AC5F94EB6F76C42AA13EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC44CB22094529EB24853 /* SceneDelegate.swift */; };
 		333AC6918660585E47B42776 /* CallSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */; };
 		333AC757F8019A851BADD27D /* HelloWorldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */; };
+		333AC8DC63620D75353777CF /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC9C76C187C3898C7EA98 /* DialPad.swift */; };
 		333AC9C434C5BEDAC9F76530 /* CallLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC2718B8C14E6CEBD71E4 /* CallLogs.swift */; };
 		333ACB331D34DC50990C8FA5 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3674D015B5398681741 /* navigation.swift */; };
 		333ACDEDBD736CCF5670BBF0 /* CatsSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */; };
@@ -43,6 +44,7 @@
 		333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationPage.swift; path = ui/RegistrationPage.swift; sourceTree = "<group>"; };
 		333AC5279470D6F272EE7120 /* ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentPage.swift; path = ui/ContentPage.swift; sourceTree = "<group>"; };
 		333AC5B86851D6F0F37303FA /* app-Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "app-Bridging_Header.h"; sourceTree = "<group>"; };
+		333AC9C76C187C3898C7EA98 /* DialPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DialPad.swift; path = ui/DialPad.swift; sourceTree = "<group>"; };
 		333ACA2737164257A906E104 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = main/modules/app/AppState.swift; sourceTree = "<group>"; };
 		333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallSequence.swift; path = main/modules/call/CallSequence.swift; sourceTree = "<group>"; };
 		333ACB0A65D237348A60ABEA /* Tabbed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tabbed.swift; path = ui/Tabbed.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				333ACB12CC794C9251F78016 /* CallState.swift */,
 				333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */,
 				333AC5B86851D6F0F37303FA /* app-Bridging_Header.h */,
+				333AC9C76C187C3898C7EA98 /* DialPad.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				333AC31F3D1E92EAB8608B92 /* CallState.swift in Sources */,
 				333AC6918660585E47B42776 /* CallSequence.swift in Sources */,
 				333AC01EF33CB161D1D29585 /* app-Bridging_Header.h in Sources */,
+				333AC8DC63620D75353777CF /* DialPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
