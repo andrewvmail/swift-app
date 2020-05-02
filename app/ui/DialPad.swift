@@ -1,5 +1,10 @@
 import SwiftUI
 
+let numToAbc = ["1": "", "2": "ABC", "3": "DEF",
+                "4": "GHI", "5": "JKL", "6":"MNO",
+                "7":"PQRS", "8": "TUV","9":"WXYZ",
+                "*": "", "0":"+", "#":""]
+
 struct DialPad: View {
     var body: some View {
         VStack {
@@ -49,31 +54,34 @@ struct DialPad: View {
     }
     
     func createDeleteButton() -> some View {
-            Button(action: {
-                
-            }) {
-                Image(systemName: "delete.left.fill")
+        Button(action: {
+            
+        }) {
+            Image(systemName: "delete.left.fill")
                 .resizable()
-                    .padding(25)
-                    .frame(height:80)
-                    .dialerButtonStyle()
-            }
+                .padding(25)
+                .frame(height:80)
+                .dialerButtonStyle()
         }
+    }
     
     func createDialerButton(row: Int, column: Int) -> some View {
         let index = row * 3 + column
         var text = "\(index == 9 ? 0 : index + 1)"
         if(index == 18 - 1) {
-           text = "*"
+            text = "*"
         }
         if(index == 11 - 1) {
-           text = "#"
+            text = "#"
         }
+        let abc = "\(numToAbc[text] ?? "")"
         return Button(action: {
             
         }) {
-            Text(text)
-                .dialerButtonStyle()
+            VStack {
+                Text(text).dialerButtonStyle()
+                Text(abc).dialerButtonStyleAbc()
+            }
         }
     }
 }
@@ -87,10 +95,20 @@ private struct DialerButtonViewModifier: ViewModifier {
             .frame(width: 80)
     }
 }
-
+private struct DialerButtonAbcViewModifier: ViewModifier {
+    public func body(content: Content) -> some View {
+        content
+            .font(Font.custom("Helvetica Neue", size: 12).weight(.semibold))
+            .foregroundColor(.black)
+            .frame(width: 40)
+    }
+}
 private extension View {
     func dialerButtonStyle() -> some View {
         modifier(DialerButtonViewModifier())
+    }
+    func dialerButtonStyleAbc() -> some View {
+        modifier(DialerButtonAbcViewModifier())
     }
 }
 
