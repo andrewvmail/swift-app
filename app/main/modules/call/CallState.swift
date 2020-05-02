@@ -9,6 +9,7 @@ struct Logs: Identifiable {
 }
 
 class CallState: ObservableObject {
+    @Published var dialpadInput = ""
     @Published var callList = [
         Logs(id: 0, name: "Charmander", type: "Fire", color: .red),
         Logs(id: 1, name: "Squirtle", type: "Water", color: .blue),

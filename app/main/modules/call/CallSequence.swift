@@ -7,8 +7,22 @@ class CallSequence: ObservableObject {
             main.callState.callList.append(randomLogs)
         }
     }
+
     func call(main: Main) {
-        print("call")
+        main.callState.dialpadInput = ""
+    }
+
+    func inputKey(main: Main, key: String) {
+        main.callState.dialpadInput = main.callState.dialpadInput + key
+    }
+
+    func deleteKey(main: Main) {
+        if(!main.callState.dialpadInput.isEmpty) {
+            main.callState.dialpadInput.remove(at: main.callState.dialpadInput.index(before: main.callState.dialpadInput.endIndex))
+            // ^(modifying)
+            // main.callState.dialpadInput = String(main.callState.dialpadInput.dropLast())
+            // ^(non-modifying)
+        }
     }
 
 }

@@ -6,12 +6,16 @@ let numToAbc = ["1": "", "2": "ABC", "3": "DEF",
                 "*": "", "0":"+", "#":""]
 
 struct DialPad: View {
+    @EnvironmentObject var callState: CallState
+    @EnvironmentObject var main: Main
+    @EnvironmentObject var callSequence: CallSequence
+
     var body: some View {
         VStack {
             
             VStack(alignment: .center) {
                 Spacer()
-                Text("Hamlet").font(.title)
+                Text(callState.dialpadInput).font(.title)
                 Spacer()
             }
             
@@ -47,7 +51,7 @@ struct DialPad: View {
     
     func createPhoneButton() -> some View {
         Button(action: {
-            
+           self.callSequence.call(main: self.main)
         }) {
             Image(systemName: "phone").dialerButtonStyle()
         }
@@ -55,7 +59,7 @@ struct DialPad: View {
     
     func createDeleteButton() -> some View {
         Button(action: {
-            
+           self.callSequence.deleteKey(main: self.main)
         }) {
             Image(systemName: "delete.left.fill")
                 .resizable()
@@ -76,7 +80,7 @@ struct DialPad: View {
         }
         let abc = "\(numToAbc[text] ?? "")"
         return Button(action: {
-            
+           self.callSequence.inputKey(main: self.main, key: text)
         }) {
             VStack {
                 Text(text).dialerButtonStyle()
