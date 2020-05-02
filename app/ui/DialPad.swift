@@ -20,7 +20,11 @@ struct DialPad: View {
                         }
                     }
                 }
-                self.createDialerButton(row: 3, column: 0)
+                HStack(spacing: 20) {
+                    self.createDialerButton(row: 3, column: 8) // * star
+                    self.createDialerButton(row: 3, column: 0)
+                    self.createDialerButton(row: 3, column: 1) // # pound
+                }
             }
             Spacer()
             
@@ -58,10 +62,17 @@ struct DialPad: View {
     
     func createDialerButton(row: Int, column: Int) -> some View {
         let index = row * 3 + column
+        var text = "\(index == 9 ? 0 : index + 1)"
+        if(index == 18 - 1) {
+           text = "*"
+        }
+        if(index == 11 - 1) {
+           text = "#"
+        }
         return Button(action: {
             
         }) {
-            Text("\(index == 9 ? 0 : index + 1)")
+            Text(text)
                 .dialerButtonStyle()
         }
     }
