@@ -15,7 +15,13 @@ struct DialPad: View {
             
             VStack(alignment: .center) {
                 Spacer()
-                Text(callState.dialpadInput).font(.title)
+                HStack(alignment: .center) {
+                    Text("Select a country ∨").font(.subheadline).padding()
+                    Spacer()
+                    Text("100 Credits").font(.subheadline).padding()
+                }
+                Spacer()
+                Text(self.callState.dialpadInput).font(.title).frame(height: 10)
                 Spacer()
             }
             
@@ -117,10 +123,14 @@ private extension View {
 }
 
 struct DialPad_Previews: PreviewProvider {
+    
     struct DialPad_Harness: View {
         
         var body: some View {
             DialPad()
+            .environmentObject(Main())
+            .environmentObject(CallState())
+            .environmentObject(CallSequence())
         }
     }
     
