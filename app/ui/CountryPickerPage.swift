@@ -13,7 +13,13 @@ struct CountryPickerPage: View {
                     ForEach(self.main.callState.countries.countryWithCode.filter {
                         self.searchText.isEmpty ? true : $0.countryName.lowercased().contains(self.searchText.lowercased())
                     }, id: \.self) { countries in
-                        Text(countries.countryName)
+                        Button(action: {
+                            self.main.callState.selectedCountryCode = countries.countryCode
+                            self.main.callState.selectedCountryName = countries.countryName
+                            self.presentation.wrappedValue.dismiss()
+                        }) {
+                            Text(countries.countryName)
+                        }
                     }
                 }.navigationBarTitle(Text("Countries"))
                         .navigationBarItems(leading:

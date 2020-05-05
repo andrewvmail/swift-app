@@ -15,66 +15,64 @@ struct DialPad: View {
 
     var body: some View {
         // NavigationView {
-            VStack {
+        VStack {
 
-                VStack(alignment: .center) {
-                    Spacer()
-                    HStack(alignment: .center) {
-                        // NavigationLink(destination: CountryPickerPage()) {
-                        //     Text("Select a country ∨").font(.subheadline).padding()
-                        // }
-                        Button(action: {
-                            self.show_modal = true
-                            // self.main.appSequence.route(main: self.main, route: Pages.CountryPickerPage)
-                        }) {
-                            Text("Select a country ∨").font(.subheadline).padding()
-                        }.sheet(isPresented: self.$show_modal) {
-                            CountryPickerPage().environmentObject(self.main)
-                        }
-
-                        Spacer()
-                        Button(action: {
-                            self.callSequence.call(main: self.main)
-                        }) {
-                            Text("100 Credits").font(.subheadline).padding()
-                        }
-                    }
-                    Spacer()
-                    Text(self.callState.dialpadInput).font(.title).frame(height: 10)
-                    Spacer()
-                }
-
+            VStack(alignment: .center) {
                 Spacer()
-
-                VStack(spacing: 20) {
-                    ForEach(0..<3) { row in
-                        HStack(spacing: 20) {
-                            ForEach(0..<3) { column in
-                                self.createDialerButton(row: row, column: column)
-                            }
-                        }
+                HStack(alignment: .center) {
+                    Button(action: {
+                        self.show_modal = true
+                    }) {
+                        self.callState.selectedCountryName.isEmpty ?
+                                Text("Select a country ∨").font(.subheadline).padding() :
+                                Text( self.callState.selectedCountryName + " ∨").font(.subheadline).padding()
+                    }.sheet(isPresented: self.$show_modal) {
+                        CountryPickerPage().environmentObject(self.main)
                     }
-                    HStack(spacing: 20) {
-                        self.createDialerButton(row: 3, column: 8) // * star
-                        self.createDialerButton(row: 3, column: 0)
-                        self.createDialerButton(row: 3, column: 1) // # pound
+
+                    Spacer()
+                    Button(action: {
+                        self.callSequence.call(main: self.main)
+                    }) {
+                        Text("100 Credits").font(.subheadline).padding()
                     }
                 }
                 Spacer()
+                Text(self.callState.dialpadInput).font(.title).frame(height: 10)
+                Spacer()
+            }
 
-                VStack(alignment: .center) {
-                    Spacer()
+            Spacer()
+
+            VStack(spacing: 20) {
+                ForEach(0..<3) { row in
                     HStack(spacing: 20) {
-                        self.createPhoneButton().zIndex(1).opacity(0)
-                        self.createPhoneButton().zIndex(1)
-                        self.createDeleteButton().zIndex(1)
+                        ForEach(0..<3) { column in
+                            self.createDialerButton(row: row, column: column)
+                        }
                     }
-                    Spacer()
+                }
+                HStack(spacing: 20) {
+                    self.createDialerButton(row: 3, column: 8) // * star
+                    self.createDialerButton(row: 3, column: 0)
+                    self.createDialerButton(row: 3, column: 1) // # pound
                 }
             }
-                    // .navigationBarHidden(true)
-                    // .navigationBarTitle(Text("Home"))
-                    // .edgesIgnoringSafeArea([.top, .bottom])
+            Spacer()
+
+            VStack(alignment: .center) {
+                Spacer()
+                HStack(spacing: 20) {
+                    self.createPhoneButton().zIndex(1).opacity(0)
+                    self.createPhoneButton().zIndex(1)
+                    self.createDeleteButton().zIndex(1)
+                }
+                Spacer()
+            }
+        }
+        // .navigationBarHidden(true)
+        // .navigationBarTitle(Text("Home"))
+        // .edgesIgnoringSafeArea([.top, .bottom])
         // }
 
     }

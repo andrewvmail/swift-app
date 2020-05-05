@@ -17,4 +17,7 @@ class CallState: ObservableObject {
         Logs(id: 3, name: "Pikachu", type: "Electric", color: .yellow),
     ]
     @Published var countries = CountryPhoneCodeAndName()
+    @Published var selectedCountryCode = "";
+    @Published var selectedCountryName = "";
+
 }
