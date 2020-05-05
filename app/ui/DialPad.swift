@@ -25,7 +25,7 @@ struct DialPad: View {
                     }) {
                         self.callState.selectedCountryName.isEmpty ?
                                 Text("Select a country ∨").font(.subheadline).padding() :
-                                Text( self.callState.selectedCountryName + " ∨").font(.subheadline).padding()
+                                Text(self.callState.selectedCountryName + " ∨").font(.subheadline).padding()
                     }.sheet(isPresented: self.$show_modal) {
                         CountryPickerPage().environmentObject(self.main)
                     }
@@ -38,7 +38,11 @@ struct DialPad: View {
                     }
                 }
                 Spacer()
-                Text(self.callState.dialpadInput).font(.title).frame(height: 10)
+                Text(
+                        (self.callState.selectedCountryCode.isEmpty ?
+                                "" : "+" + self.callState.selectedCountryCode) + // countryCode
+                                self.callState.dialpadInput) // input
+                        .font(.title).frame(height: 10)
                 Spacer()
             }
 
