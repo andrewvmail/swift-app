@@ -21,9 +21,12 @@
 		333AC5F94EB6F76C42AA13EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC44CB22094529EB24853 /* SceneDelegate.swift */; };
 		333AC6918660585E47B42776 /* CallSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */; };
 		333AC757F8019A851BADD27D /* HelloWorldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */; };
+		333AC888BA75D3AB36FC120F /* CountryPickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACC3FF861C06386B1AAFF /* CountryPickerPage.swift */; };
 		333AC8DC63620D75353777CF /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC9C76C187C3898C7EA98 /* DialPad.swift */; };
 		333AC9C434C5BEDAC9F76530 /* CallLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC2718B8C14E6CEBD71E4 /* CallLogs.swift */; };
+		333ACABA3F38EC61EDC4A6D0 /* CountryPhoneCodeAndName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACDE016A6730654F814A4 /* CountryPhoneCodeAndName.swift */; };
 		333ACB331D34DC50990C8FA5 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3674D015B5398681741 /* navigation.swift */; };
+		333ACCF357A93E2121D06BCE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC502017AAC76F6ACB1CE /* Helpers.swift */; };
 		333ACDEDBD736CCF5670BBF0 /* CatsSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */; };
 		333ACE7C812BA24C1789CAB9 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */; };
 		333ACEB289F841B6E5AC4D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3B444674183CC3B0359 /* AppDelegate.swift */; };
@@ -42,6 +45,7 @@
 		333AC3BE13F1686EC0FF4E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333AC44CB22094529EB24853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationPage.swift; path = ui/RegistrationPage.swift; sourceTree = "<group>"; };
+		333AC502017AAC76F6ACB1CE /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		333AC5279470D6F272EE7120 /* ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentPage.swift; path = ui/ContentPage.swift; sourceTree = "<group>"; };
 		333AC5B86851D6F0F37303FA /* app-Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "app-Bridging_Header.h"; sourceTree = "<group>"; };
 		333AC9C76C187C3898C7EA98 /* DialPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DialPad.swift; path = ui/DialPad.swift; sourceTree = "<group>"; };
@@ -49,10 +53,12 @@
 		333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallSequence.swift; path = main/modules/call/CallSequence.swift; sourceTree = "<group>"; };
 		333ACB0A65D237348A60ABEA /* Tabbed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tabbed.swift; path = ui/Tabbed.swift; sourceTree = "<group>"; };
 		333ACB12CC794C9251F78016 /* CallState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallState.swift; path = main/modules/call/CallState.swift; sourceTree = "<group>"; };
+		333ACC3FF861C06386B1AAFF /* CountryPickerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryPickerPage.swift; path = ui/CountryPickerPage.swift; sourceTree = "<group>"; };
 		333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomePage.swift; path = ui/WelcomePage.swift; sourceTree = "<group>"; };
 		333ACC57EAB3EC2FA20BD975 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333ACC68D0CA1A79382881D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333ACD881B4B7D08684EC261 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Main.swift; path = main/Main.swift; sourceTree = "<group>"; };
+		333ACDE016A6730654F814A4 /* CountryPhoneCodeAndName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPhoneCodeAndName.swift; sourceTree = "<group>"; };
 		333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatsSequence.swift; path = main/modules/cats/CatsSequence.swift; sourceTree = "<group>"; };
 		333ACF40C7D60F9EED3927FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		71C7D0774C6D33502AFB98EA /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */,
 				333AC5B86851D6F0F37303FA /* app-Bridging_Header.h */,
 				333AC9C76C187C3898C7EA98 /* DialPad.swift */,
+				333ACC3FF861C06386B1AAFF /* CountryPickerPage.swift */,
+				333ACDE016A6730654F814A4 /* CountryPhoneCodeAndName.swift */,
+				333AC502017AAC76F6ACB1CE /* Helpers.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -250,6 +259,9 @@
 				333AC6918660585E47B42776 /* CallSequence.swift in Sources */,
 				333AC01EF33CB161D1D29585 /* app-Bridging_Header.h in Sources */,
 				333AC8DC63620D75353777CF /* DialPad.swift in Sources */,
+				333AC888BA75D3AB36FC120F /* CountryPickerPage.swift in Sources */,
+				333ACABA3F38EC61EDC4A6D0 /* CountryPhoneCodeAndName.swift in Sources */,
+				333ACCF357A93E2121D06BCE /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

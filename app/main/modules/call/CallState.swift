@@ -16,4 +16,5 @@ class CallState: ObservableObject {
         Logs(id: 2, name: "Bulbasaur", type: "Grass", color: .green),
         Logs(id: 3, name: "Pikachu", type: "Electric", color: .yellow),
     ]
+    @Published var countries = CountryPhoneCodeAndName()
 }

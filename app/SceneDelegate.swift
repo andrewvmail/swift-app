@@ -31,6 +31,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         var callState = main.callState
         var callSequence = main.callSequence
 
+        callState.countries.getCountryName()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

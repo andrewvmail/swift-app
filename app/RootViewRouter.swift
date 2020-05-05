@@ -11,6 +11,7 @@ enum Pages {
     case HelloWorldPage
     case ContentPage
     case TabbedContentView
+    case CountryPickerPage
 }
 
 class ViewRouter: ObservableObject {
@@ -29,6 +30,8 @@ class ViewRouter: ObservableObject {
 struct RootView: View {
 
     @EnvironmentObject var viewRouter: ViewRouter
+    @Environment(\.presentationMode) var presentation
+
 
     var body: some View {
         VStack {
@@ -48,6 +51,9 @@ struct RootView: View {
                 TabbedContentView()
                         .transition(.scale)
 
+            } else if viewRouter.currentPage == Pages.CountryPickerPage {
+                CountryPickerPage()
+                        .transition(.scale)
             }
         }
     }
