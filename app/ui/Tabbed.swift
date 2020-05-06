@@ -6,13 +6,19 @@ struct TabbedContentView: View {
             DialPad()
                     .tabItem {
                         Image(systemName: "phone.fill")
-                        Text("First Tab")
+                        Text("Keypad")
                     }
 
-            CallLogsView()
+            // CallLogsView()
+            //         .tabItem {
+            //             Image(systemName: "tv.fill")
+            //             // Text("Second Tab")
+            //         }
+
+            SettingsPage()
                     .tabItem {
-                        Image(systemName: "tv.fill")
-                        Text("Second Tab")
+                        Image(systemName: "gear")
+                        Text("Settings")
                     }
         }
     }
