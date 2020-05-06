@@ -18,6 +18,7 @@
 		333AC368C504CE968D551974 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACD881B4B7D08684EC261 /* Main.swift */; };
 		333AC37F7A13B9A4D7A05202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333AC040A2C616DB2BAAD942 /* LaunchScreen.storyboard */; };
 		333AC3BCA6C53019E13BBB5C /* AppSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC275DC0225074A345193 /* AppSequence.swift */; };
+		333AC4530D6817CAB83D98A1 /* LuaBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 333AC2C8CC480BD5B9D9EEAF /* LuaBridge.mm */; };
 		333AC517C89D21AC8910DFB8 /* RootViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */; };
 		333AC537CF5E2192C88C01FB /* Tabbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB0A65D237348A60ABEA /* Tabbed.swift */; };
 		333AC5F94EB6F76C42AA13EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC44CB22094529EB24853 /* SceneDelegate.swift */; };
@@ -43,12 +44,14 @@
 		333AC07D36EEE003CBAC9398 /* CatsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatsState.swift; path = main/modules/cats/CatsState.swift; sourceTree = "<group>"; };
 		333AC2718B8C14E6CEBD71E4 /* CallLogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallLogs.swift; path = ui/CallLogs.swift; sourceTree = "<group>"; };
 		333AC275DC0225074A345193 /* AppSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSequence.swift; path = main/modules/app/AppSequence.swift; sourceTree = "<group>"; };
+		333AC2C8CC480BD5B9D9EEAF /* LuaBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LuaBridge.mm; sourceTree = "<group>"; };
 		333AC30AF2E63ABDA552DB07 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelloWorldPage.swift; path = ui/HelloWorldPage.swift; sourceTree = "<group>"; };
 		333AC3674D015B5398681741 /* navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = navigation.swift; path = main/providers/navigation.swift; sourceTree = "<group>"; };
 		333AC3B444674183CC3B0359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		333AC3BE13F1686EC0FF4E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333AC44CB22094529EB24853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		333AC4A489BA84623B6146D0 /* LuaBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaBridge.h; sourceTree = "<group>"; };
 		333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationPage.swift; path = ui/RegistrationPage.swift; sourceTree = "<group>"; };
 		333AC502017AAC76F6ACB1CE /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		333AC5279470D6F272EE7120 /* ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentPage.swift; path = ui/ContentPage.swift; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				FA0EE8A224629F8E0050CE9A /* main.swift */,
 				FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */,
 				FA0EE8AF2462A6DC0050CE9A /* LuaKit.h */,
+				333AC2C8CC480BD5B9D9EEAF /* LuaBridge.mm */,
+				333AC4A489BA84623B6146D0 /* LuaBridge.h */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				FA0EE8AD2462A3D80050CE9A /* LuaKit.mm in Sources */,
 				333AC0DBDA526E0FD6D87A46 /* Helpers.swift in Sources */,
 				333AC35536F17D8D4C9CE0B8 /* SettingsPage.swift in Sources */,
+				333AC4530D6817CAB83D98A1 /* LuaBridge.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +319,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "app/app-Bridging_Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -332,6 +339,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "app/app-Bridging_Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

@@ -6,6 +6,8 @@ let lk = LuaKit()
 lk.error();
 lk.start();
 
+LuaBridge().test()
+
 UIApplicationMain(
     CommandLine.argc,
     CommandLine.unsafeArgv,
