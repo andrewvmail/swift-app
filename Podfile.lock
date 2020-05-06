@@ -1,8 +1,20 @@
 PODS:
+  - curl (1.0.0)
+  - LuakitPod (1.0.28):
+    - LuakitPod/static (= 1.0.28)
+  - LuakitPod/static (1.0.28)
   - taresip (0.1.1)
 
 DEPENDENCIES:
+  - curl (~> 1.0.0)
+  - LuakitPod (~> 1.0.28)
   - taresip (from `https://github.com/andrewvmail/taresip.git`)
+
+SPEC REPOS:
+  https://github.com/williamwen1986/curl.git:
+    - curl
+  https://github.com/williamwen1986/LuakitPod.git:
+    - LuakitPod
 
 EXTERNAL SOURCES:
   taresip:
@@ -14,8 +26,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/andrewvmail/taresip.git
 
 SPEC CHECKSUMS:
+  curl: ec0615c2f1046f5751549e6e714f845c9b609805
+  LuakitPod: 99b9086c52f9cc9d16ed508b751566ad10977f70
   taresip: 25371dcfa501965053e41217f60fc1d2fa523dce
 
-PODFILE CHECKSUM: 918957760c99e9c0979d4e5cd6bcbc482a87da57
+PODFILE CHECKSUM: 02d55a1bdc8e90af53b7c652395b673a5984f177
 
 COCOAPODS: 1.7.5

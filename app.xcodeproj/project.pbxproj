@@ -34,6 +34,8 @@
 		333ACEB289F841B6E5AC4D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3B444674183CC3B0359 /* AppDelegate.swift */; };
 		333ACF8F973A858C6CBB951E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACA2737164257A906E104 /* AppState.swift */; };
 		E2DAA6C6BA2AB5EA18E62002 /* Pods_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2529E0332C2B2F9E9E267E0 /* Pods_app.framework */; };
+		FA0EE8A324629F8E0050CE9A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE8A224629F8E0050CE9A /* main.swift */; };
+		FA0EE8AD2462A3D80050CE9A /* LuaKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		71C7D0774C6D33502AFB98EA /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
 		A2529E0332C2B2F9E9E267E0 /* Pods_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAF122DCE01B61D06EBA684 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0EE8A224629F8E0050CE9A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LuaKit.mm; sourceTree = "<group>"; };
+		FA0EE8AF2462A6DC0050CE9A /* LuaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuaKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +135,9 @@
 				333AC502017AAC76F6ACB1CE /* Helpers.swift */,
 				333AC30AF2E63ABDA552DB07 /* Helpers.swift */,
 				333ACE91D93FB2846787A959 /* SettingsPage.swift */,
+				FA0EE8A224629F8E0050CE9A /* main.swift */,
+				FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */,
+				FA0EE8AF2462A6DC0050CE9A /* LuaKit.h */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -262,12 +270,14 @@
 				333AC537CF5E2192C88C01FB /* Tabbed.swift in Sources */,
 				333AC9C434C5BEDAC9F76530 /* CallLogs.swift in Sources */,
 				333AC31F3D1E92EAB8608B92 /* CallState.swift in Sources */,
+				FA0EE8A324629F8E0050CE9A /* main.swift in Sources */,
 				333AC6918660585E47B42776 /* CallSequence.swift in Sources */,
 				333AC01EF33CB161D1D29585 /* app-Bridging_Header.h in Sources */,
 				333AC8DC63620D75353777CF /* DialPad.swift in Sources */,
 				333AC888BA75D3AB36FC120F /* CountryPickerPage.swift in Sources */,
 				333ACABA3F38EC61EDC4A6D0 /* CountryPhoneCodeAndName.swift in Sources */,
 				333ACCF357A93E2121D06BCE /* Helpers.swift in Sources */,
+				FA0EE8AD2462A3D80050CE9A /* LuaKit.mm in Sources */,
 				333AC0DBDA526E0FD6D87A46 /* Helpers.swift in Sources */,
 				333AC35536F17D8D4C9CE0B8 /* SettingsPage.swift in Sources */,
 			);

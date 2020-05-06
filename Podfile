@@ -1,12 +1,11 @@
+source 'https://github.com/williamwen1986/curl.git'
+source 'https://github.com/williamwen1986/LuakitPod.git'
+
 project 'app.xcodeproj'
 
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
 target 'app' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-  # Pods for app
   pod 'taresip', :git => 'https://github.com/andrewvmail/taresip.git'
+  pod 'curl', '~> 1.0.0'
+  pod 'LuakitPod', '~> 1.0.28'
 end
