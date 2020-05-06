@@ -3,6 +3,7 @@ import UIKit
 class MyApplication: UIApplication {}
 
 let lk = LuaKit()
+lk.error();
 lk.start();
 
 UIApplicationMain(

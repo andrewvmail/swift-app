@@ -3,4 +3,5 @@
 
 @interface LuaKit: NSObject
 - (void) start;
+- (void) error;
 @end
