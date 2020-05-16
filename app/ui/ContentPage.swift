@@ -19,7 +19,7 @@ struct PlayButton: View {
             // self.isPlaying.toggle()
             // print(self.isPlaying)
         }) {
-            Text(appState.token! ?? "momo")
+            Text(appState.token)
             Image(systemName: true ? "pause.circle" : "play.circle")
         }
     }
