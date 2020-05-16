@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 
 @interface LuaBridge: NSObject
-- (void) test;
+- (void) start;
+- (void) migrate: (void (^)(NSString *)) callback;
 @end

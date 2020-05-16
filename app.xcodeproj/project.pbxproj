@@ -9,77 +9,75 @@
 /* Begin PBXBuildFile section */
 		333AC01EF33CB161D1D29585 /* app-Bridging_Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 333AC5B86851D6F0F37303FA /* app-Bridging_Header.h */; };
 		333AC0DBDA526E0FD6D87A46 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC30AF2E63ABDA552DB07 /* Helpers.swift */; };
-		333AC10CBED18C7C09614A25 /* ContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC5279470D6F272EE7120 /* ContentPage.swift */; };
-		333AC1384084F458DEC7BE88 /* CatsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC07D36EEE003CBAC9398 /* CatsState.swift */; };
-		333AC29DEF38E1DF64B9E4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333AC3BE13F1686EC0FF4E5F /* Assets.xcassets */; };
-		333AC3159CDE5EB15E69DAD1 /* RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */; };
-		333AC31F3D1E92EAB8608B92 /* CallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB12CC794C9251F78016 /* CallState.swift */; };
-		333AC35536F17D8D4C9CE0B8 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACE91D93FB2846787A959 /* SettingsPage.swift */; };
-		333AC368C504CE968D551974 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACD881B4B7D08684EC261 /* Main.swift */; };
-		333AC37F7A13B9A4D7A05202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333AC040A2C616DB2BAAD942 /* LaunchScreen.storyboard */; };
-		333AC3BCA6C53019E13BBB5C /* AppSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC275DC0225074A345193 /* AppSequence.swift */; };
 		333AC4530D6817CAB83D98A1 /* LuaBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 333AC2C8CC480BD5B9D9EEAF /* LuaBridge.mm */; };
 		333AC517C89D21AC8910DFB8 /* RootViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */; };
-		333AC537CF5E2192C88C01FB /* Tabbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB0A65D237348A60ABEA /* Tabbed.swift */; };
 		333AC5F94EB6F76C42AA13EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC44CB22094529EB24853 /* SceneDelegate.swift */; };
-		333AC6918660585E47B42776 /* CallSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */; };
-		333AC757F8019A851BADD27D /* HelloWorldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */; };
-		333AC888BA75D3AB36FC120F /* CountryPickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACC3FF861C06386B1AAFF /* CountryPickerPage.swift */; };
-		333AC8DC63620D75353777CF /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC9C76C187C3898C7EA98 /* DialPad.swift */; };
-		333AC9C434C5BEDAC9F76530 /* CallLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC2718B8C14E6CEBD71E4 /* CallLogs.swift */; };
-		333ACABA3F38EC61EDC4A6D0 /* CountryPhoneCodeAndName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACDE016A6730654F814A4 /* CountryPhoneCodeAndName.swift */; };
-		333ACB331D34DC50990C8FA5 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3674D015B5398681741 /* navigation.swift */; };
 		333ACCF357A93E2121D06BCE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC502017AAC76F6ACB1CE /* Helpers.swift */; };
-		333ACDEDBD736CCF5670BBF0 /* CatsSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */; };
-		333ACE1727FBF327DE208A24 /* db.lua in Resources */ = {isa = PBXBuildFile; fileRef = 333AC6868AE636D5F5226B51 /* db.lua */; };
-		333ACE7C812BA24C1789CAB9 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */; };
 		333ACEB289F841B6E5AC4D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3B444674183CC3B0359 /* AppDelegate.swift */; };
-		333ACF8F973A858C6CBB951E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ACA2737164257A906E104 /* AppState.swift */; };
 		E2DAA6C6BA2AB5EA18E62002 /* Pods_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2529E0332C2B2F9E9E267E0 /* Pods_app.framework */; };
-		FA0EE8A324629F8E0050CE9A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE8A224629F8E0050CE9A /* main.swift */; };
 		FA0EE8AD2462A3D80050CE9A /* LuaKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */; };
-		FABA928C246E7F1B004F981A /* notification_test.lua in Resources */ = {isa = PBXBuildFile; fileRef = FABA928B246E7F1A004F981A /* notification_test.lua */; };
+		FABA932A246FB764004F981A /* lua-main in Resources */ = {isa = PBXBuildFile; fileRef = FABA9324246FB6F5004F981A /* lua-main */; };
+		FABA932B246FB7D1004F981A /* bridge.lua in Resources */ = {isa = PBXBuildFile; fileRef = FABA928B246E7F1A004F981A /* bridge.lua */; };
+		FABA934B246FBBAE004F981A /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9335246FBBAE004F981A /* navigation.swift */; };
+		FABA934C246FBBAE004F981A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9336246FBBAE004F981A /* Main.swift */; };
+		FABA934D246FBBAE004F981A /* CatsSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9339246FBBAE004F981A /* CatsSequence.swift */; };
+		FABA934E246FBBAE004F981A /* CatsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA933A246FBBAE004F981A /* CatsState.swift */; };
+		FABA934F246FBBAE004F981A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA933C246FBBAE004F981A /* AppState.swift */; };
+		FABA9350246FBBAE004F981A /* AppSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA933D246FBBAE004F981A /* AppSequence.swift */; };
+		FABA9351246FBBAE004F981A /* CallSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA933F246FBBAE004F981A /* CallSequence.swift */; };
+		FABA9352246FBBAE004F981A /* CallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9340246FBBAE004F981A /* CallState.swift */; };
+		FABA9353246FBBAE004F981A /* ContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9342246FBBAE004F981A /* ContentPage.swift */; };
+		FABA9354246FBBAE004F981A /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9343246FBBAE004F981A /* DialPad.swift */; };
+		FABA9355246FBBAE004F981A /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9344246FBBAE004F981A /* WelcomePage.swift */; };
+		FABA9356246FBBAE004F981A /* HelloWorldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9345246FBBAE004F981A /* HelloWorldPage.swift */; };
+		FABA9357246FBBAE004F981A /* CallLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9346246FBBAE004F981A /* CallLogs.swift */; };
+		FABA9358246FBBAE004F981A /* Tabbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9347246FBBAE004F981A /* Tabbed.swift */; };
+		FABA9359246FBBAE004F981A /* RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9348246FBBAE004F981A /* RegistrationPage.swift */; };
+		FABA935A246FBBAE004F981A /* CountryPickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9349246FBBAE004F981A /* CountryPickerPage.swift */; };
+		FABA935B246FBBAE004F981A /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA934A246FBBAE004F981A /* SettingsPage.swift */; };
+		FABA935D246FBBD1004F981A /* CountryPhoneCodeAndName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA935C246FBBD0004F981A /* CountryPhoneCodeAndName.swift */; };
+		FABA935F246FBC1C004F981A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA935E246FBC1C004F981A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewRouter.swift; sourceTree = "<group>"; };
-		333AC07D36EEE003CBAC9398 /* CatsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatsState.swift; path = main/modules/cats/CatsState.swift; sourceTree = "<group>"; };
-		333AC2718B8C14E6CEBD71E4 /* CallLogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallLogs.swift; path = ui/CallLogs.swift; sourceTree = "<group>"; };
-		333AC275DC0225074A345193 /* AppSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSequence.swift; path = main/modules/app/AppSequence.swift; sourceTree = "<group>"; };
 		333AC2C8CC480BD5B9D9EEAF /* LuaBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LuaBridge.mm; sourceTree = "<group>"; };
 		333AC30AF2E63ABDA552DB07 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelloWorldPage.swift; path = ui/HelloWorldPage.swift; sourceTree = "<group>"; };
-		333AC3674D015B5398681741 /* navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = navigation.swift; path = main/providers/navigation.swift; sourceTree = "<group>"; };
 		333AC3B444674183CC3B0359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		333AC3BE13F1686EC0FF4E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333AC44CB22094529EB24853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		333AC4A489BA84623B6146D0 /* LuaBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaBridge.h; sourceTree = "<group>"; };
-		333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationPage.swift; path = ui/RegistrationPage.swift; sourceTree = "<group>"; };
 		333AC502017AAC76F6ACB1CE /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		333AC5279470D6F272EE7120 /* ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentPage.swift; path = ui/ContentPage.swift; sourceTree = "<group>"; };
 		333AC5B86851D6F0F37303FA /* app-Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "app-Bridging_Header.h"; sourceTree = "<group>"; };
-		333AC6868AE636D5F5226B51 /* db.lua */ = {isa = PBXFileReference; lastKnownFileType = file.lua; name = db.lua; path = main/providers/db.lua; sourceTree = "<group>"; };
-		333AC9C76C187C3898C7EA98 /* DialPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DialPad.swift; path = ui/DialPad.swift; sourceTree = "<group>"; };
-		333ACA2737164257A906E104 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = main/modules/app/AppState.swift; sourceTree = "<group>"; };
-		333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallSequence.swift; path = main/modules/call/CallSequence.swift; sourceTree = "<group>"; };
-		333ACB0A65D237348A60ABEA /* Tabbed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tabbed.swift; path = ui/Tabbed.swift; sourceTree = "<group>"; };
-		333ACB12CC794C9251F78016 /* CallState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallState.swift; path = main/modules/call/CallState.swift; sourceTree = "<group>"; };
-		333ACC3FF861C06386B1AAFF /* CountryPickerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryPickerPage.swift; path = ui/CountryPickerPage.swift; sourceTree = "<group>"; };
-		333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomePage.swift; path = ui/WelcomePage.swift; sourceTree = "<group>"; };
 		333ACC57EAB3EC2FA20BD975 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333ACC68D0CA1A79382881D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		333ACD881B4B7D08684EC261 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Main.swift; path = main/Main.swift; sourceTree = "<group>"; };
-		333ACDE016A6730654F814A4 /* CountryPhoneCodeAndName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPhoneCodeAndName.swift; sourceTree = "<group>"; };
-		333ACE91D93FB2846787A959 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPage.swift; path = ui/SettingsPage.swift; sourceTree = "<group>"; };
-		333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatsSequence.swift; path = main/modules/cats/CatsSequence.swift; sourceTree = "<group>"; };
 		333ACF40C7D60F9EED3927FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		71C7D0774C6D33502AFB98EA /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
 		A2529E0332C2B2F9E9E267E0 /* Pods_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAF122DCE01B61D06EBA684 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
-		FA0EE8A224629F8E0050CE9A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LuaKit.mm; sourceTree = "<group>"; };
 		FA0EE8AF2462A6DC0050CE9A /* LuaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuaKit.h; sourceTree = "<group>"; };
-		FABA928B246E7F1A004F981A /* notification_test.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notification_test.lua; sourceTree = "<group>"; };
+		FABA928B246E7F1A004F981A /* bridge.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.lua; path = bridge.lua; sourceTree = "<group>"; };
+		FABA9324246FB6F5004F981A /* lua-main */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "lua-main"; sourceTree = "<group>"; };
+		FABA9335246FBBAE004F981A /* navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
+		FABA9336246FBBAE004F981A /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		FABA9339246FBBAE004F981A /* CatsSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsSequence.swift; sourceTree = "<group>"; };
+		FABA933A246FBBAE004F981A /* CatsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsState.swift; sourceTree = "<group>"; };
+		FABA933C246FBBAE004F981A /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FABA933D246FBBAE004F981A /* AppSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSequence.swift; sourceTree = "<group>"; };
+		FABA933F246FBBAE004F981A /* CallSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSequence.swift; sourceTree = "<group>"; };
+		FABA9340246FBBAE004F981A /* CallState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallState.swift; sourceTree = "<group>"; };
+		FABA9342246FBBAE004F981A /* ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentPage.swift; sourceTree = "<group>"; };
+		FABA9343246FBBAE004F981A /* DialPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialPad.swift; sourceTree = "<group>"; };
+		FABA9344246FBBAE004F981A /* WelcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		FABA9345246FBBAE004F981A /* HelloWorldPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldPage.swift; sourceTree = "<group>"; };
+		FABA9346246FBBAE004F981A /* CallLogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallLogs.swift; sourceTree = "<group>"; };
+		FABA9347246FBBAE004F981A /* Tabbed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabbed.swift; sourceTree = "<group>"; };
+		FABA9348246FBBAE004F981A /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPage.swift; sourceTree = "<group>"; };
+		FABA9349246FBBAE004F981A /* CountryPickerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPickerPage.swift; sourceTree = "<group>"; };
+		FABA934A246FBBAE004F981A /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		FABA935C246FBBD0004F981A /* CountryPhoneCodeAndName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPhoneCodeAndName.swift; sourceTree = "<group>"; };
+		FABA935E246FBC1C004F981A /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,40 +113,25 @@
 		333ACA9C90FF57EFD2883DC5 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				FABA928B246E7F1A004F981A /* notification_test.lua */,
+				FABA9333246FBBAE004F981A /* main */,
+				FABA9341246FBBAE004F981A /* ui */,
+				FABA9324246FB6F5004F981A /* lua-main */,
+				FABA928B246E7F1A004F981A /* bridge.lua */,
 				333ACF40C7D60F9EED3927FD /* Info.plist */,
 				333AC3BE13F1686EC0FF4E5F /* Assets.xcassets */,
 				333AC040A2C616DB2BAAD942 /* LaunchScreen.storyboard */,
 				333AC3B444674183CC3B0359 /* AppDelegate.swift */,
 				333AC44CB22094529EB24853 /* SceneDelegate.swift */,
-				333AC3674D015B5398681741 /* navigation.swift */,
-				333ACC495FEA9913CE7B3E37 /* WelcomePage.swift */,
-				333AC3621F2BCA3D28E29D42 /* HelloWorldPage.swift */,
+				FABA935C246FBBD0004F981A /* CountryPhoneCodeAndName.swift */,
 				333AC03C61A90B67DE1DA5CF /* RootViewRouter.swift */,
-				333AC5279470D6F272EE7120 /* ContentPage.swift */,
-				333ACA2737164257A906E104 /* AppState.swift */,
-				333AC07D36EEE003CBAC9398 /* CatsState.swift */,
-				333AC275DC0225074A345193 /* AppSequence.swift */,
-				333ACF03C831E4DBBD7B9B51 /* CatsSequence.swift */,
-				333ACD881B4B7D08684EC261 /* Main.swift */,
-				333AC4ACBC37C6C8342567EC /* RegistrationPage.swift */,
-				333ACB0A65D237348A60ABEA /* Tabbed.swift */,
-				333AC2718B8C14E6CEBD71E4 /* CallLogs.swift */,
-				333ACB12CC794C9251F78016 /* CallState.swift */,
-				333ACA6351CF1BBD0FC2C30D /* CallSequence.swift */,
 				333AC5B86851D6F0F37303FA /* app-Bridging_Header.h */,
-				333AC9C76C187C3898C7EA98 /* DialPad.swift */,
-				333ACC3FF861C06386B1AAFF /* CountryPickerPage.swift */,
-				333ACDE016A6730654F814A4 /* CountryPhoneCodeAndName.swift */,
 				333AC502017AAC76F6ACB1CE /* Helpers.swift */,
 				333AC30AF2E63ABDA552DB07 /* Helpers.swift */,
-				333ACE91D93FB2846787A959 /* SettingsPage.swift */,
-				FA0EE8A224629F8E0050CE9A /* main.swift */,
+				FABA935E246FBC1C004F981A /* main.swift */,
 				FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */,
 				FA0EE8AF2462A6DC0050CE9A /* LuaKit.h */,
 				333AC2C8CC480BD5B9D9EEAF /* LuaBridge.mm */,
 				333AC4A489BA84623B6146D0 /* LuaBridge.h */,
-				333AC6868AE636D5F5226B51 /* db.lua */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -170,6 +153,77 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FABA9333246FBBAE004F981A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				FABA9334246FBBAE004F981A /* providers */,
+				FABA9336246FBBAE004F981A /* Main.swift */,
+				FABA9337246FBBAE004F981A /* modules */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		FABA9334246FBBAE004F981A /* providers */ = {
+			isa = PBXGroup;
+			children = (
+				FABA9335246FBBAE004F981A /* navigation.swift */,
+			);
+			path = providers;
+			sourceTree = "<group>";
+		};
+		FABA9337246FBBAE004F981A /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				FABA9338246FBBAE004F981A /* cats */,
+				FABA933B246FBBAE004F981A /* app */,
+				FABA933E246FBBAE004F981A /* call */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		FABA9338246FBBAE004F981A /* cats */ = {
+			isa = PBXGroup;
+			children = (
+				FABA9339246FBBAE004F981A /* CatsSequence.swift */,
+				FABA933A246FBBAE004F981A /* CatsState.swift */,
+			);
+			path = cats;
+			sourceTree = "<group>";
+		};
+		FABA933B246FBBAE004F981A /* app */ = {
+			isa = PBXGroup;
+			children = (
+				FABA933C246FBBAE004F981A /* AppState.swift */,
+				FABA933D246FBBAE004F981A /* AppSequence.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		FABA933E246FBBAE004F981A /* call */ = {
+			isa = PBXGroup;
+			children = (
+				FABA933F246FBBAE004F981A /* CallSequence.swift */,
+				FABA9340246FBBAE004F981A /* CallState.swift */,
+			);
+			path = call;
+			sourceTree = "<group>";
+		};
+		FABA9341246FBBAE004F981A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FABA9342246FBBAE004F981A /* ContentPage.swift */,
+				FABA9343246FBBAE004F981A /* DialPad.swift */,
+				FABA9344246FBBAE004F981A /* WelcomePage.swift */,
+				FABA9345246FBBAE004F981A /* HelloWorldPage.swift */,
+				FABA9346246FBBAE004F981A /* CallLogs.swift */,
+				FABA9347246FBBAE004F981A /* Tabbed.swift */,
+				FABA9348246FBBAE004F981A /* RegistrationPage.swift */,
+				FABA9349246FBBAE004F981A /* CountryPickerPage.swift */,
+				FABA934A246FBBAE004F981A /* SettingsPage.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,7 +234,7 @@
 				7A97BB1F71984BB6C937D8CE /* [CP] Check Pods Manifest.lock */,
 				333ACDCBA350E89327E0752B /* Sources */,
 				333AC4269C4C60A075C4FCC2 /* Frameworks */,
-				333ACAE58738A3482A5FB893 /* Resources */,
+				FABA9329246FB762004F981A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -224,14 +278,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		333ACAE58738A3482A5FB893 /* Resources */ = {
+		FABA9329246FB762004F981A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333AC29DEF38E1DF64B9E4CC /* Assets.xcassets in Resources */,
-				333AC37F7A13B9A4D7A05202 /* LaunchScreen.storyboard in Resources */,
-				333ACE1727FBF327DE208A24 /* db.lua in Resources */,
-				FABA928C246E7F1B004F981A /* notification_test.lua in Resources */,
+				FABA932A246FB764004F981A /* lua-main in Resources */,
+				FABA932B246FB7D1004F981A /* bridge.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,33 +319,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABA9350246FBBAE004F981A /* AppSequence.swift in Sources */,
+				FABA934C246FBBAE004F981A /* Main.swift in Sources */,
 				333ACEB289F841B6E5AC4D0D /* AppDelegate.swift in Sources */,
+				FABA9358246FBBAE004F981A /* Tabbed.swift in Sources */,
+				FABA9355246FBBAE004F981A /* WelcomePage.swift in Sources */,
+				FABA9351246FBBAE004F981A /* CallSequence.swift in Sources */,
+				FABA9359246FBBAE004F981A /* RegistrationPage.swift in Sources */,
+				FABA934E246FBBAE004F981A /* CatsState.swift in Sources */,
+				FABA934B246FBBAE004F981A /* navigation.swift in Sources */,
+				FABA935B246FBBAE004F981A /* SettingsPage.swift in Sources */,
 				333AC5F94EB6F76C42AA13EF /* SceneDelegate.swift in Sources */,
-				333ACB331D34DC50990C8FA5 /* navigation.swift in Sources */,
-				333ACE7C812BA24C1789CAB9 /* WelcomePage.swift in Sources */,
-				333AC757F8019A851BADD27D /* HelloWorldPage.swift in Sources */,
+				FABA935F246FBC1C004F981A /* main.swift in Sources */,
+				FABA9353246FBBAE004F981A /* ContentPage.swift in Sources */,
+				FABA9352246FBBAE004F981A /* CallState.swift in Sources */,
 				333AC517C89D21AC8910DFB8 /* RootViewRouter.swift in Sources */,
-				333AC10CBED18C7C09614A25 /* ContentPage.swift in Sources */,
-				333ACF8F973A858C6CBB951E /* AppState.swift in Sources */,
-				333AC1384084F458DEC7BE88 /* CatsState.swift in Sources */,
-				333AC3BCA6C53019E13BBB5C /* AppSequence.swift in Sources */,
-				333ACDEDBD736CCF5670BBF0 /* CatsSequence.swift in Sources */,
-				333AC368C504CE968D551974 /* Main.swift in Sources */,
-				333AC3159CDE5EB15E69DAD1 /* RegistrationPage.swift in Sources */,
-				333AC537CF5E2192C88C01FB /* Tabbed.swift in Sources */,
-				333AC9C434C5BEDAC9F76530 /* CallLogs.swift in Sources */,
-				333AC31F3D1E92EAB8608B92 /* CallState.swift in Sources */,
-				FA0EE8A324629F8E0050CE9A /* main.swift in Sources */,
-				333AC6918660585E47B42776 /* CallSequence.swift in Sources */,
 				333AC01EF33CB161D1D29585 /* app-Bridging_Header.h in Sources */,
-				333AC8DC63620D75353777CF /* DialPad.swift in Sources */,
-				333AC888BA75D3AB36FC120F /* CountryPickerPage.swift in Sources */,
-				333ACABA3F38EC61EDC4A6D0 /* CountryPhoneCodeAndName.swift in Sources */,
+				FABA9357246FBBAE004F981A /* CallLogs.swift in Sources */,
 				333ACCF357A93E2121D06BCE /* Helpers.swift in Sources */,
 				FA0EE8AD2462A3D80050CE9A /* LuaKit.mm in Sources */,
+				FABA935A246FBBAE004F981A /* CountryPickerPage.swift in Sources */,
 				333AC0DBDA526E0FD6D87A46 /* Helpers.swift in Sources */,
-				333AC35536F17D8D4C9CE0B8 /* SettingsPage.swift in Sources */,
+				FABA934F246FBBAE004F981A /* AppState.swift in Sources */,
+				FABA9356246FBBAE004F981A /* HelloWorldPage.swift in Sources */,
+				FABA9354246FBBAE004F981A /* DialPad.swift in Sources */,
+				FABA934D246FBBAE004F981A /* CatsSequence.swift in Sources */,
 				333AC4530D6817CAB83D98A1 /* LuaBridge.mm in Sources */,
+				FABA935D246FBBD1004F981A /* CountryPhoneCodeAndName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

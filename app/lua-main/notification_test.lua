@@ -1,6 +1,3 @@
-
-print "Hello world"
-
 local notification = {}
 
 notification.test = function ()
@@ -13,14 +10,14 @@ notification.testOnLOGICThread = function ()
     lua_notification.createListener(function (l)
         listener = l
         listener:AddObserver(3,
-                function (data)
-                    print("lua Observer")
-                    if data then
-                        for k,v in pairs(data) do
-                            print("lua Observer"..k..v)
-                        end
+            function (data)
+                print("lua Observer")
+                if data then
+                    for k,v in pairs(data) do
+                        print("lua Observer"..k..v)
                     end
                 end
+            end
         )
     end);
 end
@@ -31,12 +28,10 @@ end
 
 notification.postNotificationOnIOThread = function ()
     lua_notification.postNotification(3,
-            {
-                lua1 = "lua123",
-                lua2 = "lua234"
-            })
+        {
+            lua1 = "lua123",
+            lua2 = "lua234"
+        })
 end
-
-
 
 return notification

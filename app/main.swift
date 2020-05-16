@@ -6,7 +6,13 @@ let lk = LuaKit()
 lk.error();
 lk.start();
 
-LuaBridge().test()
+let lb = LuaBridge();
+lb.migrate { (result) -> () in
+    // do stuff with the result
+    print("--")
+    print(result)
+    print("--")
+}
 
 UIApplicationMain(
     CommandLine.argc,
