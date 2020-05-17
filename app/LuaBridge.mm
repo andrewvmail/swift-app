@@ -21,7 +21,9 @@
 + (NSArray *) getSettings {
     return call_lua_function(@"bridge", @"getSettings");
 }
-
++ (void)saveSettings:(NSString *)server token:(NSString *)token {
+    call_lua_function(@"bridge", @"saveSettings", server, token);
+}
 - (void)onNotification:(int)type data:(id)data
 {
     NSLog(@"object-c onNotification type = %d data = %@", type , data);

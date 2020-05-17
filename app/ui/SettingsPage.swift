@@ -11,35 +11,18 @@ struct SettingsPage: View {
     var body: some View {
         NavigationView {
             Form {
-
-                Section(header: Text("Call Settings")){
+                Section(header: Text("Call Settings")) {
                     TextField("Server", text: self.$appState.server)
                     TextField("Token", text: self.$appState.token)
-                    // Toggle(isOn: $enableAirplaneMode) {
-                    //     Text("Airplane Mode")
-                    // }
-                    //
-                    // Picker(selection: $selectedMode, label: Text("Notifications")) {
-                    //     ForEach(0..<notificationMode.count) {
-                    //         Text(self.notificationMode[$0])
-                    //     }
-                    // }
                 }
-
-                // Section(header: Text("About")) {
-                //     HStack {
-                //         Text("Name")
-                //         Spacer()
-                //         Text("iPhone 11")
-                //     }
-                //
-                //     HStack {
-                //         Text("Software Version")
-                //         Spacer()
-                //         Text("13.1.1")
-                //     }
-                // }
-            } .navigationBarTitle("Settings")
+                Button(action: {
+                    LuaBridge.saveSettings(
+                        String(self.$appState.server.wrappedValue),
+                        token: String(self.$appState.token.wrappedValue))
+                }) {
+                    Text("Save changes")
+                }
+            }.navigationBarTitle("Settings")
         }
     }
 }
