@@ -23,6 +23,24 @@ struct SettingsPage: View {
                     Text("Save changes")
                 }
             }.navigationBarTitle("Settings")
+            
         }
+        .navigationViewStyle(StackNavigationViewStyle())
+    }
+}
+
+struct SettingsPage_Previews: PreviewProvider {
+   
+    struct SettingsPage_Harness: View {
+
+        var body: some View {
+            SettingsPage()
+                    .environmentObject(AppState())
+                    .environmentObject(CallState())
+        }
+    }
+
+    static var previews: some View {
+        SettingsPage_Harness()
     }
 }

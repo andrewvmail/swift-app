@@ -34,7 +34,7 @@ struct CountryPickerPage: View {
 
 
             }
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
