@@ -50,6 +50,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             )
             self.window = window
             window.makeKeyAndVisible()
+
+
+            var agent: OpaquePointer? = nil
+            var client: Sip? = nil
+            do {
+                client = try Sip(agent: &agent)
+            } catch {
+                print("---------")
+                print("---------")
+                print("error: \(error)")
+                print("---------")
+                print("---------")
+            }
+
+
         }
     }
 

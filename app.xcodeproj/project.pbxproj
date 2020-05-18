@@ -16,6 +16,7 @@
 		333ACEB289F841B6E5AC4D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AC3B444674183CC3B0359 /* AppDelegate.swift */; };
 		E2DAA6C6BA2AB5EA18E62002 /* Pods_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2529E0332C2B2F9E9E267E0 /* Pods_app.framework */; };
 		FA0EE8AD2462A3D80050CE9A /* LuaKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */; };
+		FA54FA6824726797007ADC81 /* sip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54FA6724726797007ADC81 /* sip.swift */; };
 		FABA932A246FB764004F981A /* lua-main in Resources */ = {isa = PBXBuildFile; fileRef = FABA9324246FB6F5004F981A /* lua-main */; };
 		FABA932B246FB7D1004F981A /* bridge.lua in Resources */ = {isa = PBXBuildFile; fileRef = FABA928B246E7F1A004F981A /* bridge.lua */; };
 		FABA934B246FBBAE004F981A /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA9335246FBBAE004F981A /* navigation.swift */; };
@@ -57,6 +58,7 @@
 		CDAF122DCE01B61D06EBA684 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
 		FA0EE8AC2462A3D80050CE9A /* LuaKit.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LuaKit.mm; sourceTree = "<group>"; };
 		FA0EE8AF2462A6DC0050CE9A /* LuaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuaKit.h; sourceTree = "<group>"; };
+		FA54FA6724726797007ADC81 /* sip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sip.swift; sourceTree = "<group>"; };
 		FABA928B246E7F1A004F981A /* bridge.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.lua; path = bridge.lua; sourceTree = "<group>"; };
 		FABA9324246FB6F5004F981A /* lua-main */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "lua-main"; sourceTree = "<group>"; };
 		FABA9335246FBBAE004F981A /* navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				FABA9335246FBBAE004F981A /* navigation.swift */,
+				FA54FA6724726797007ADC81 /* sip.swift */,
 			);
 			path = providers;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				FABA934F246FBBAE004F981A /* AppState.swift in Sources */,
 				FABA9356246FBBAE004F981A /* HelloWorldPage.swift in Sources */,
 				FABA9354246FBBAE004F981A /* DialPad.swift in Sources */,
+				FA54FA6824726797007ADC81 /* sip.swift in Sources */,
 				FABA934D246FBBAE004F981A /* CatsSequence.swift in Sources */,
 				333AC4530D6817CAB83D98A1 /* LuaBridge.mm in Sources */,
 				FABA935D246FBBD1004F981A /* CountryPhoneCodeAndName.swift in Sources */,
