@@ -18,6 +18,13 @@
     call_lua_function(@"bridge", @"migrate", callback);
 }
 
++ (void) setConfig: (NSArray *)config {
+    call_lua_function(@"bridge", @"setConfig", config);
+}
++ (void) setConfigIndex: (NSArray *)config {
+    call_lua_function(@"bridge", @"setConfigIndex", config);
+}
+
 + (NSArray *) getSettings {
     return call_lua_function(@"bridge", @"getSettings");
 }

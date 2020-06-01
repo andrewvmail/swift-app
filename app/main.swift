@@ -6,6 +6,12 @@ let lk = LuaKit()
 lk.error();
 lk.start();
 
+let configIndex = ["name", "last_name"]
+let config = ["momo", "tanner"]
+
+LuaBridge.setConfig(config)
+LuaBridge.setConfigIndex(configIndex)
+
 LuaBridge.migrate { (result) -> () in }
 
 UIApplicationMain(
